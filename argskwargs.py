@@ -16,7 +16,7 @@ class argskwargs(object):
 
     def __repr__(self):
         chunks = _itertools.chain(
-            # montana these are psitional arguments (reminding myself)
+            # montana these are positional arguments (reminding myself)
             (repr(arg) for arg in self.args),
 
             # key value arguments 
