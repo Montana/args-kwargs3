@@ -3,6 +3,5 @@ language: python
 python:
   - "2.7"
 install:
-  - pip install .
   - pip install -r requirements-test.txt
 script: chmod u+x py.test
